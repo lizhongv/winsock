@@ -10,5 +10,12 @@
   gcc client.c -o client
   ./client
 ```
-  
+mac osx 查看端口占用情况：
+```shell
+lsof -i udp:1234
+```
+强制杀死进程
+```shell
+kill -9 69094
+```
   
