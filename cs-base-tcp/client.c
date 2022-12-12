@@ -12,7 +12,6 @@ int main(int argc, const char *argv[]){
     int clnt_sock;
     struct sockaddr_in serv_addr;
 
-
     if((clnt_sock= socket(AF_INET, SOCK_STREAM, IPPROTO_TCP))<0){
         err_log("fail to sock.");
     }
