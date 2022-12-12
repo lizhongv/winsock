@@ -1,4 +1,12 @@
-/*server.c*/
+#!/usr/bin/python3
+#-*-coding:utf-8-*-
+"""
+@Email: zl2272001@gmail.com
+@Date: 2022/12/6
+@Author:lizhong
+@Target: the server program is based on tcp.
+"""
+    
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
