@@ -25,7 +25,6 @@ int main(int argc, const char *argv[]){
     printf("服务器套接字创建成功！\n");
     sleep(3);
    
-
     memset(&serv_addr, 0, sizeof(serv_addr));  //每个字节都用0填充
     serv_addr.sin_family = AF_INET;  //使用IPv4地址
     serv_addr.sin_addr.s_addr = inet_addr(argv[1]);  //服务器IP地址     
