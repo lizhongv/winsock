@@ -16,3 +16,5 @@ sudo ./trace -I www.baidu.com
 gcc main.c traceroute.c -o  trace
 sudo ./trace -U www.baidu.com
 ```
+## 参考
+[博客](https://blog.csdn.net/C3080844491/article/details/77817028)
