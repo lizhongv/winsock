@@ -2,7 +2,7 @@
 @Email: zl2272001@gmail.com
 @Date: 2022/12/6
 @Author:lizhong
-@Target: the client program is based on tcp.
+@Target: 
 */
     
 #ifndef PING_H_INCLUDED
